@@ -15,16 +15,19 @@ body{
     opacity: 0.3;
 }
 
-.home{
+.menu-name{
+    justify-content: center;
+    text-align: center;
     overflow: hidden;
-    height: 100%;
-    padding: 15px 50px;
-
+    padding-left: 20px;
 }
 
-.menu-name{
+.content{
+    justify-content: center;
     width: 100%;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    padding: 0px 10px 20px 10px;
 }
 
 .card{
@@ -34,7 +37,7 @@ body{
     border-radius: 15px;
     padding: 15px 15px;
     margin: 7px 7px;
-    width: 300px;
+    width: 305px;
     height: 200px;
 }
 
@@ -72,7 +75,7 @@ body{
 }
 
 .login-for-more{
-    overflow: hidden;
+    bottom: 20px;
     text-align: center;
     border-top: 1px solid #f0f0f0;
     background-color: white;
@@ -81,6 +84,43 @@ body{
 }
 
 .login-for-more a{
-    overflow: hidden;
     text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+    .content{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+        padding: 0px 10px 20px 10px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1127px) {
+    .content{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        padding: 0px 10px 20px 10px;
+    }
+  }
+  @media screen and (min-width: 1128px) and (max-width: 1439px) {
+    .content{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        padding: 0px 10px 20px 10px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .content{
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 350px);
+        padding: 0px 10px 20px 10px;
+    }
+  }
