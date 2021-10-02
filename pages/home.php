@@ -517,6 +517,6 @@
 
 </div>
 <div class='login-for-more'>
-        Login for more features. Want to know more about all features. 
-        <a href='#features'>Learn More</a>
-    </div>
+    Login for more features. Know more 
+    <a href='#features'>about all features</a>.
+</div>

@@ -22,7 +22,7 @@
 .footer-right ul li{
     float: left;
     font-size: 20px;
-    padding-right: 15px;
+    padding-right: 14px;
 }
 
 .footer-right ul li a{
@@ -50,4 +50,41 @@
     width: 70px;
     background-color: #000;
     color: #fff;
+}
+
+@media screen and (max-width: 499px) {
+    .footer-not-for-small-screen{
+        display: none;
+    }
+    .footer-not-for-mobile{
+        display: none;
+    }
+    .copyright{
+        float: none;
+        text-align: center;
+    }
+    .select-language{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-not-for-small-screen{
+        display: none;
+    }
+    .footer-not-for-mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 599px) {
+    .footer-not-for-mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px)  {
+    .footer-not-for-medium-screen{
+        display: none;
+    }
 }

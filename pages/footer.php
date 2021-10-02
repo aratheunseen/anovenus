@@ -4,19 +4,19 @@
     </div>
     <div class="footer-right">
          <ul>
-            <li>
+            <li  class='footer-not-for-mobile footer-not-for-medium-screen'>
                 <a href="#about">About</a>
             </li>
-            <li>
+            <li class='footer-not-for-mobile footer-not-for-medium-screen'>
                 <a href="#features">Features</a>
             </li>
             <li>
                 <a href="#terms">Terms</a>
             </li>
-            <li>
+            <li class='footer-not-for-small-screen'>
                 <a href="#privacy">Privacy</a>
             </li>
-            <li>
+            <li class='footer-not-for-mobile'>
                 <a href="#support">Support</a>
             </li>
             <li>

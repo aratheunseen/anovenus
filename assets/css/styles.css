@@ -1,9 +1,13 @@
 body{
+    position:relative;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0; 
     padding: 0;
     margin: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 .line{
@@ -68,14 +72,11 @@ body{
 }
 
 .login-for-more{
-    float: none;
-    width: 100%;
     overflow: hidden;
-    padding-top: 10px;
     text-align: center;
-    border: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
     background-color: white;
-    padding: 20px;
+    padding: 20px 0px;
     font-size: 18px;
 }
 
