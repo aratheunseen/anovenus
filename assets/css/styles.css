@@ -19,7 +19,7 @@ body{
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .content{
@@ -27,7 +27,6 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 350px);
-    padding: 0px 10px 20px 10px;
 }
 
 .card{
@@ -93,7 +92,6 @@ body{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 350px);
-        padding: 0px 10px 20px 10px;
     }
   }
 
@@ -103,7 +101,6 @@ body{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 350px);
-        padding: 0px 10px 20px 10px;
     }
   }
   @media screen and (min-width: 1128px) and (max-width: 1439px) {
@@ -112,7 +109,6 @@ body{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 350px);
-        padding: 0px 10px 20px 10px;
     }
   }
   @media screen and (min-width: 1440px) {
@@ -121,6 +117,5 @@ body{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(4, 350px);
-        padding: 0px 10px 20px 10px;
     }
   }
