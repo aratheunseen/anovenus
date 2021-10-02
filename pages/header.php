@@ -7,7 +7,7 @@
     </p>
     <div class="header-right">
          <ul>
-            <li>
+            <li class='invite'>
                 <a href="#invite">Get Invite</a>
             </li>
             <li class='signin'>

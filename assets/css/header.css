@@ -70,13 +70,28 @@
     color: #fff !important;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
     .header a {
-      float: none;
       display: block;
       text-align: left;
     }
-    .header-right {
-      float: none;
+
+    .header p{
+        display: none;
+    }
+
+    .signin{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 421px) and (max-width: 767px) {
+    .header a {
+      display: block;
+      text-align: left;
+    }
+
+    .header p{
+        display: none;
     }
   }
