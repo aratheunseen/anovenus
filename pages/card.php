@@ -2,14 +2,14 @@
         <div class='card-header'>
             <div class='card-info'>
                 <div class='name'>
-                    Ashiqur Rahman Alif
+                    Anovenus
                 </div>
                 <div class='about'>
-                    Rajshahi * 2 hours ago
+                    Bangladesh * 3 minutes ago
                 </div>
             </div>
             <div class='card-react'>
-                Love <br/>
+                &#10084; <br/>
                 53,254
             </div>
         </div>
